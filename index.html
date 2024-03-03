@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <div class="calculator">
+        <div class="buttons">
+    <div class="row0">
+        <input  id="display-bar">
+    </div>
+    
+       <div class="row1">
+        <button onclick="clearTodisplay()"  id="orange">AC</button>
+        <button onclick="Delte()" id="orange">DE</button>
+        <button onclick="show('0')">0</button>
+        <button onclick="show('00')">00</button>
+    </div>
+       <div class="row2">
+        <button onclick="show('+')" id="orange">+</button>
+        <button onclick="show('1')">1</button>
+        <button onclick="show('2')">2</button>
+        <button onclick="show('3')">3</button>
+       </div>
+       <div class="row3">
+        <button onclick="show('-')" id="orange">-</button>
+        <button onclick="show('4')">4</button>
+        <button onclick="show('5')">5</button>
+        <button onclick="show('6')">6</button>
+       </div>
+       <div class="row4">
+        <button onclick="show('*') " id="orange">*</button>
+        <button onclick="show('7')">7</button>
+        <button onclick="show('8')">8</button>
+        <button onclick="show('9')">9</button>
+       </div>
+       <div class="row5">
+        <button onclick="show('/')" id="orange">/</button>
+        <button onclick="show('.') ">.</button>
+        <button onclick="calculate()" class="equals">=</button>
+       </div>
+       
+    
+    </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
